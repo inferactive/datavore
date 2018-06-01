@@ -1,4 +1,3 @@
-var dv = (function() {
 /**
  * The top-level Datavore namespace. All public methods and fields should be
  * registered on this object. Note that core Datavore source is surrounded by an
@@ -199,6 +198,7 @@ outer:
             lut = dims[i].lut;
             s = sz[i];
             val = 0;
+            var c;
             for (j = 0, k = 0, c = -1; j < C; ++j, ++k) {
                 if (k == stride) { k = 0; val = (val + 1) % s; }
                 col[j] = code ? val : lut[val];
@@ -597,4 +597,4 @@ dv.quantile = function(expr, n) {
     return op;
 };
 
-return dv; })();
+export default dv;

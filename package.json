@@ -1,0 +1,23 @@
+{
+  "name": "datavore",
+  "version": "1.0.0",
+  "description": "A small, fast, in-browser database engine written in JavaScript",
+  "main": "dv.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StanfordHCI/datavore.git"
+  },
+  "author": "Stanford HCI",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/StanfordHCI/datavore/issues"
+  },
+  "homepage": "https://github.com/StanfordHCI/datavore#readme"
+}
